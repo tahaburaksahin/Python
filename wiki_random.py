@@ -1,19 +1,4 @@
-"""Author Anurag Kumar(mailto:anuragkumarak95@gmail.com)
-Module for Fetching Random Wiki Pages and asking user for opening one of them
 
-Python:
-  - 3.5
-
-Requirements:
-  - requests
-  - json
-  - webbrowser
-
-Usage:
-  - $python3 wiki_random.py
-
-enter index of article you would like to see, or 'r' for retry and 'n' for exit.
-"""
 import requests
 import webbrowser
 
