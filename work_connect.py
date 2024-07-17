@@ -1,12 +1,3 @@
-# Script Name		: work_connect.py
-# Author				: Craig Richards
-# Created				: 11th May 2012
-# Last Modified		: 31st October 2012
-# Version				: 1.1
-
-# Modifications		: 1.1 - CR - Added some extra code, to check an argument is passed to the script first of all, then check it's a valid input
-
-# Description			: This simple script loads everything I need to connect to work etc
 
 import os  # Load the Library Module
 import subprocess  # Load the Library Module
