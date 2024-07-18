@@ -1,27 +1,3 @@
-"""
-Introduction Description
-
-The machine operating environment: system environment Win10, the operating environment Python3.6, run the tool Pycharm
-
-Python packages need to have: pywifi
-
-This is a brute wifi mode, the time required is longer, this paper provides a break ideas
-
-Second, the idea of introduction
-
-Mr. into a password dictionary (This step can also be downloaded from the Internet dictionary)
-
-Cycle with each password password dictionary to try to connect Wifi, until success
-
-Third, source design
-
-1. password dictionary TXT file is generated, provided herein is relatively simple, practical crack passwords can be set according to the general, to generate relatively large relatively wide password dictionary
-
-The following provides a simple 8 purely digital dictionary generation program codes
-"""
-
-
-
 
 import itertools as its
 
@@ -36,11 +12,7 @@ if __name__ == '__main__':
         dic.write("".join(i))
         dic.write("".join("\n"))
     dic.close()
-    
-    
-    
-    
-    
+
     
   #  2. brute force password when using longer
   
