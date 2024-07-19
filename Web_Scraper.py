@@ -1,8 +1,4 @@
-"""
-Author: Chayan Chawra
-git: github.com/Chayan-19
-Requirements: selenium, BeautifulSoup
-"""
+
 
 import requests
 from bs4 import BeautifulSoup
